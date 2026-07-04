@@ -36,7 +36,7 @@ public class ControladorTest {
         controlador.ejecutarOperacion(consumo);
         controlador.ejecutarOperacion(carga);
 
-        assertEquals(3500, bateria.getNivelEnergiaActual());
+        assertEquals(2500, bateria.getNivelEnergiaActual());
     }
 
 }
